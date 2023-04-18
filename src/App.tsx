@@ -11,7 +11,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="relative">
+    <div className="relative font-raleway ">
       <Background />
       <div className="bg-[rgba(4,6,20,0.85)] flex flex-col justify-between backdrop-blur-md h-[100vh]">
         <Navbar />
