@@ -1,7 +1,9 @@
-import React from "react";
+import React, { FC } from "react";
+import { Props } from "./Search";
+import Wrapper from "../sections/Wrapper";
 
-const Compare = () => {
-  return <div>Compare</div>;
+const Compare: FC<Props> = ({ styling }) => {
+  return <div className={styling}>Compare</div>;
 };
 
-export default Compare;
+export default Wrapper(Compare);

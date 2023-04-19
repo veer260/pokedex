@@ -1,7 +1,9 @@
-import React from "react";
+import React, { FC } from "react";
+import { Props } from "./Search";
+import Wrapper from "../sections/Wrapper";
 
-const Pokemon = () => {
-  return <div>Pokemon</div>;
+const Pokemon: FC<Props> = ({ styling }) => {
+  return <div className={styling}>Pokemon</div>;
 };
 
-export default Pokemon;
+export default Wrapper(Pokemon);

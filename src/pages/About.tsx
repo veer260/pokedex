@@ -1,7 +1,9 @@
-import React from "react";
+import React, { FC } from "react";
+import Wrapper from "../sections/Wrapper";
+import { Props } from "./Search";
 
-const About = () => {
-  return <div>About</div>;
+const About: FC<Props> = ({ styling }) => {
+  return <div className={styling}>About</div>;
 };
 
-export default About;
+export default Wrapper(About);
