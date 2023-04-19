@@ -65,9 +65,9 @@ const Navbar = () => {
             );
           })}
 
-          <div className="absolute bottom-0 left-0 z-10 underline h-[3px] w-[20%] mix-blend-normal transition duration-[600ms] ease-in-out bg-white "></div>
-          <div className="absolute bottom-0 left-0 z-10 underline h-[3px] w-[20%] mix-blend-normal trasition duration-[500ms] ease-in-out bg-white "></div>
-          <div className="absolute bottom-0 left-0 z-10 underline h-[3px] w-[20%] mix-blend-normal transition duration-[700ms] ease-ib-out bg-white "></div>
+          <div className="absolute bottom-0 left-0 z-10 underline h-[3px] w-[20%] mix-blend-normal transition duration-[500ms] ease-in-out bg-white "></div>
+          <div className="absolute bottom-0 left-0 z-10 underline h-[3px] w-[20%] mix-blend-normal trasition duration-[400ms] ease-in-out bg-white "></div>
+          <div className="absolute bottom-0 left-0 z-10 underline h-[3px] w-[20%] mix-blend-normal transition duration-[600ms] ease-ib-out bg-white "></div>
         </div>
       </div>
 
